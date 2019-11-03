@@ -7,32 +7,45 @@
     <title>Ankazen</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 
 <body>
-    <section class="hero is-fullheight is-family-sans-serif">
+    <section class="is-fullheight is-family-sans-serif">
         <section class="hero is-primary is-medium">
             <div class="hero-head">
             </div>
             <div class="hero-body">
                 <div class="container has-text-centered">
-                    <h1 id="lottie" class="title" >
+                    <h1 id="lottie" class="title">
                         Ankazen
                     </h1>
                     <p class="subtitle">
+                        <p>Posted by: <a class="has-text-grey" href="mailto:ankazen@qq.com">ankazen@qq.com</a></p>
                     </p>
                 </div>
             </div>
         </section>
-        <!-- Hero head: will stick at the top -->
-        <footer class="footer">
-            <div class="has-text-centered has-text-grey-light">
-                <p>Posted by: <a class="has-text-grey" href="mailto:ankazen@qq.com">ankazen@qq.com</a></p>
+        <section>
+            <div class="container has-text-centered">
+                <div class="columns" style="padding: 2rem">
+                    <div class="column is-half" style="padding: 4rem">
+                        <h2 class="title is-size-4">Socialwiki</h1>
+                        <a href="https://www.socialwiki.cn/" target="blank">Socialwiki</a>，一个在线脑图工具社区。
+                    </div>
+                    <div class="column" style="padding: 4rem">
+                        <h2 class="title is-size-4">轨迹助手</h1>
+                        <p>一个显示gpx文件的工具，可以用多个轨迹组成本地路网。可在微软应用商店下载</p>
+                    </div>
+                </div>
             </div>
-        </footer>
+        </section>
     </section>
-
-    <script type="text/javascript">
+    <script>
+    document.getElementById('content').innerHTML =
+        marked('# Marked in the browser\n\nRendered by **marked**.\
+\
+');
     </script>
 </body>
 
