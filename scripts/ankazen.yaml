@@ -1,0 +1,7 @@
+sitename: Ankazen
+sitetitle: Ankazen
+theme: bootstrap
+links:
+    -
+        name: blog
+        path: blog

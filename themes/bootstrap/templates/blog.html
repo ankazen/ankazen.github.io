@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <div class="m-4">
+        <h5 class="text-center"><a href="#">{{ title }}</a></h5>
+        <p class=""><small class="text-muted">{{ date }}</small></p>
+        {{content}}
+    </div>
+    <hr class="featurette-divider">
+    <p class="text-right">
+        <a class="btn btn-primary small" href="/blog.html"><</a>
+        <a class="btn btn-primary small" href="#">^</a>
+    </p>
+</div>
+{% endblock %}

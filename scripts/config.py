@@ -1,0 +1,2 @@
+sitename = 'Ankazen'
+sitetitle = 'Ankazen'
